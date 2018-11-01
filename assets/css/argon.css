@@ -3959,7 +3959,7 @@ fieldset:disabled a.btn
 .btn-group-lg > .btn
 {
     font-size: 1.25rem;
-    line-height: 5;
+    line-height: 1.5;
 
     padding: .875rem 1rem;
 
