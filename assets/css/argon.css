@@ -7177,6 +7177,8 @@ button.close
 {
     position: relative;
 
+    font-size: 100px;
+
     padding: 20px;
 
     flex: 1 1 auto;
@@ -18774,3 +18776,4 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     right: 10px;
     left: auto;
 }
+ p {font-size:100px;}
