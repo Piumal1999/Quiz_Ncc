@@ -18777,3 +18777,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     left: auto;
 }
  p {font-size:100px;}
+
+
+ img { margin-left:45px;
+ }
