@@ -17705,8 +17705,8 @@ textarea[resize='horizontal']
 .section-components .badge,
 .section-components .btn
 {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin-top: .0rem;
+    margin-bottom: .0rem;
 }
 
 .section-components .btn-group
