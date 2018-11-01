@@ -27,6 +27,14 @@
     <script>
         function close1() {
             document.getElementById("Ques1").disabled = true;
+        };
+
+        function close2() {
+            document.getElementById("Ques2").disabled = true;
+        };
+
+        function close3() {
+            document.getElementById("Ques3").disabled = true;
         }
     </script>
 
@@ -76,8 +84,8 @@
 
                   </div>
                   <div class="modal-footer">
-                      <input type="button" class="btn btn-primary" name="Answer1" value="Answer" onclick="showDiv()" />
-                      <input type="submit" name="submit" id="submitBtn" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close1()"> </input>
+                      <input type="button" class="btn btn-primary" name="Answer1" value="Answer" onclick="showDiv1()" />
+                      <input type="submit" name="Close" id="submitBtn1" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close1()"> </input>
                   </div>
                 </div>
               </div>
@@ -114,7 +122,7 @@
             <!-- Question 3 -->
             <div class="col-md-2">
                 <span class="badge badge-pill badge-primary">&nbsp;</span>
-                <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default3"><div class="h1" style="color: white;">3</div></button>
+                <button type="button" id="Ques3" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default3"><div class="h1" style="color: white;">3</div></button>
                 <div class="modal fade" id="modal-default3" tabindex="-1" role="dialog" aria-labelledby="modal-default3" aria-hidden="true">
                     <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                         <div class="modal-content">
@@ -126,11 +134,12 @@
                             </div>
                             <div class="modal-body">
                                 <p>ලොව වටිනාකමින් අඩුම කාසිය කුමක්ද?</p>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <div class="lead" id="Answer3" style="display:none;" >Answer3</div>
+
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" >Save changes</button>
-                                <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                <input type="button" class="btn btn-primary" name="Answer3" value="Answer" onclick="showDiv3()" />
+                                <input type="submit" name="Close" id="submitBtn3" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close3()"> </input>
                             </div>
                         </div>
                     </div>
@@ -526,9 +535,18 @@
   <script src="./assets/js/argon.js?v=1.0.1"></script>
 
  <script>
-     function showDiv() {
+     function showDiv1() {
          document.getElementById('Answer1').style.display = "block";
+     };
+
+     function showDiv2() {
+         document.getElementById('Answer2').style.display = "block";
+     };
+
+     function showDiv3() {
+         document.getElementById('Answer3').style.display = "block";
      }
+
 
  </script>
 
