@@ -67,11 +67,12 @@
                   </div>
                   <div class="modal-body">
                     <p>ලොව වටිනාකමින් අඩුම කාසිය කුමක්ද?</p>
-                    <p>A small river named Duden flows by their place and supplies it with  necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                      <div class="lead" id="Answer1" style="display:none;" class="answer_list" >Answer1</div>
+
                   </div>
                   <div class="modal-footer">
-                     <button type="button" class="btn btn-primary" >Save changes</button>
-                    <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                      <input type="button" class="btn btn-primary" name="Answer1" value="Answer" onclick="showDiv()" />
+                      <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
                   </div>
                 </div>
               </div>
@@ -518,6 +519,14 @@
   <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
   <!-- Argon JS -->
   <script src="./assets/js/argon.js?v=1.0.1"></script>
+
+ <script>
+     function showDiv() {
+         document.getElementById('Answer1').style.display = "block";
+     }
+
+ </script>
+
 </body>
 
 </html>
