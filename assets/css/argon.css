@@ -18776,7 +18776,8 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     right: 10px;
     left: auto;
 }
- p {font-size:100px;}
+ p {font-size:100px;
+ }
 
 
 
