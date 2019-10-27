@@ -2989,6 +2989,16 @@ fieldset:disabled a.btn
     border-color: #5e72e4; 
     background-color: #5e72e4;
 }
+
+
+btn-primary:visited
+{
+    color: #fff;
+    border-color: #5e72e4;
+    background-color: black;
+}
+
+
 .btn-primary:focus,
 .btn-primary.focus
 {
@@ -7103,14 +7113,16 @@ button.close
     display: flex;
     flex-direction: column;
 
-    width: 100%;
+    width: 600%;
+    height:500px;
+
 
     pointer-events: auto;
 
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: .3rem;
     outline: 0; 
-    background-color: #fff;
+    background-color: black;
     background-clip: padding-box;
     box-shadow: 0 15px 35px rgba(50, 50, 93, .2), 0 5px 15px rgba(0, 0, 0, .17);
 }
@@ -7165,7 +7177,9 @@ button.close
 {
     position: relative;
 
-    padding: 1.5rem; 
+    font-size: 100px;
+
+    padding: 20px;
 
     flex: 1 1 auto;
 }
@@ -12796,6 +12810,11 @@ main
     background-color: #5e72e4 !important;
 }
 
+
+
+
+
+
 a.bg-blue:hover,
 a.bg-blue:focus,
 button.bg-blue:hover,
@@ -17686,8 +17705,8 @@ textarea[resize='horizontal']
 .section-components .badge,
 .section-components .btn
 {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+    margin-top: .0rem;
+    margin-bottom: .0rem;
 }
 
 .section-components .btn-group
@@ -18757,3 +18776,10 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     right: 10px;
     left: auto;
 }
+ p {font-size:100px;
+ }
+
+
+
+
+ #boxMain {margin-left:25px;}

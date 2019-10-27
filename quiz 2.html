@@ -18,18 +18,98 @@
   <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
   <!-- Docs CSS -->
   <link type="text/css" href="./assets/css/argon.min.css" rel="stylesheet">
+
+    <style>
+
+        p {font-size:30px; }
+
+    </style>
+    <script>
+        function close1() {
+            document.getElementById("Ques1").disabled = true;
+        };
+
+        function close2() {
+            document.getElementById("Ques2").disabled = true;
+        };
+
+        function close3() {
+            document.getElementById("Ques3").disabled = true;
+
+        };
+
+        function close4() {
+            document.getElementById("Ques4").disabled = true;
+
+        };
+
+        function close5() {
+            document.getElementById("Ques5").disabled = true;
+
+        };
+
+        function close6() {
+            document.getElementById("Ques6").disabled = true;
+
+        };
+
+        function close7() {
+            document.getElementById("Ques7").disabled = true;
+
+        };
+
+        function close8() {
+            document.getElementById("Ques8").disabled = true;
+
+        };
+
+        function close9() {
+            document.getElementById("Ques9").disabled = true;
+
+        };
+
+        function close10() {
+            document.getElementById("Ques10").disabled = true;
+
+        };
+
+        function close11() {
+            document.getElementById("Ques11").disabled = true;
+
+        };
+
+        function close12() {
+            document.getElementById("Ques12").disabled = true;
+
+        };
+
+        function close13() {
+            document.getElementById("Ques13").disabled = true;
+
+        };
+
+        function close14() {
+            document.getElementById("Ques14").disabled = true;
+
+        };
+
+        function close15() {
+            document.getElementById("Ques15").disabled = true;
+
+        };
+
+        function close16() {
+            document.getElementById("Ques16").disabled = true;
+
+        }
+    </script>
+
 </head>
 
-<body>
+<body style="background-image:url(wall.jpg)">
 
   <main>
 
-        <!-- SVG separator -->
-        <div class="separator separator-bottom separator-skew zindex-100">
-          <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-            <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-          </svg>
-        </div>
 
 
 
@@ -43,86 +123,62 @@
 
         <!-- Images -->
 
-        <h2 class="mt-lg mb-4">
-          <span>Questions(In Sinhala)</span>
+        <h2 class="">
+          <span>පළමු වටය </span>
         </h2>
 
         <!-- Row 1 -->
         <div class="row">
-
-            <!-- Question 1 -->
-          <div class="col-md-3">
-            <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default1">1</button>
+            <div class="col-md-2">
+            </div>
+            <!-- ප්‍රශ්න අංක 1 -->
+          <div class="col-md-2">
+              <span class="badge badge-pill badge-primary">ECON</span>
+              <button type="button" id="Ques1" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default1"><div class="h1" style="color: white;">1</div></button>
             <div class="modal fade" id="modal-default1" tabindex="-1" role="dialog" aria-labelledby="modal-default1" aria-hidden="true">
               <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h6 class="modal-title" id="modal-title-default1">Type your modal title</h6>
+                    <h6 class="modal-title" id="modal-title-default1">ප්‍රශ්න අංක 1</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">×</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    <p>1668 දී ස්ථාපිත කරන ලද ලෝකයේ පැරණිතම මහ බැංකුව කුමක්ද?</p>
+                      <div class="lead" id="Answer1" style="display:none;" >රික්ස් බැංකුව</div>
+
                   </div>
                   <div class="modal-footer">
-                     <button type="button" class="btn btn-primary" >Save changes</button>
-                    <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                      <input type="button" class="btn btn-primary" name="Answer1" value="Answer" onclick="showDiv1()" />
+                      <input type="submit" value="Close" name="Close" id="submitBtn1" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close1()"> </input>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-            <!-- Question 2 -->
-          <div class="col-md-3">
-            <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">2</button>
-            <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-              <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                <div class="modal-content bg-gradient-danger">
-                  <div class="modal-header">
-                    <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">×</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="py-3 text-center">
-                      <i class="ni ni-bell-55 ni-3x"></i>
-                      <h4 class="heading mt-4">You should read this!</h4>
-                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                    </div>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-white">Ok, Got it</button>
-                    <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-            <!-- Question 3 -->
-            <div class="col-md-3">
-                <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">3</button>
-                <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+            <!-- ප්‍රශ්න අංක 2 -->
+            <div class="col-md-2">
+                <span class="badge badge-pill badge-primary">&nbsp;</span>
+                <button type="button" id="Ques2" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default2"><div class="h1" style="color: white;">2</div></button>
+                <div class="modal fade" id="modal-default2" tabindex="-1" role="dialog" aria-labelledby="modal-default2" aria-hidden="true">
                     <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                <h6 class="modal-title" id="modal-title-default2">ප්‍රශ්න අංක 2</h6>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">×</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                <p>තීරුබදු හා වෙළඳාම පිලිබඳ පොදු සම්මුතිය කුමක්ද?</p>
+                                <div class="lead" id="Answer2" style="display:none;" >GATT සංවිධානය</div>
+
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                                <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                <input type="button" class="btn btn-primary" name="Answer2" value="Answer" onclick="showDiv2()" />
+                                <input type="submit" value="Close" name="Close" id="submitBtn2" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close2()"> </input>
                             </div>
                         </div>
                     </div>
@@ -130,28 +186,55 @@
             </div>
 
 
-            <!-- Question 4-->
-            <div class="col-md-3">
-                <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">4</button>
-                <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                    <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                        <div class="modal-content bg-gradient-danger">
+            <!-- ප්‍රශ්න අංක 3 -->
+            <div class="col-md-2">
+                <span class="badge badge-pill badge-primary">&nbsp;</span>
+                <button type="button" id="Ques3" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default3"><div class="h1" style="color: white;">3</div></button>
+                <div class="modal fade" id="modal-default3" tabindex="-1" role="dialog" aria-labelledby="modal-default3" aria-hidden="true">
+                    <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                        <div class="modal-content">
                             <div class="modal-header">
-                                <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
+                                <h6 class="modal-title" id="modal-title-default3">ප්‍රශ්න අංක 3</h6>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">×</span>
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <div class="py-3 text-center">
-                                    <i class="ni ni-bell-55 ni-3x"></i>
-                                    <h4 class="heading mt-4">You should read this!</h4>
-                                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                </div>
+                                <p>මිල තරඟය හා නොමිල තරඟය යන උපක්‍රම දෙක ඔස්සේ තරඟය පවත්වා ගන්නා වෙළඳපොල ව්‍යුහය වන්නේ කුමක්ද?</p>
+                                <div class="lead" id="Answer3" style="display:none;" >කතිපයාධිකාරය</div>
+
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-white">Ok, Got it</button>
-                                <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
+                                <input type="button" class="btn btn-primary" name="Answer3" value="Answer" onclick="showDiv3()" />
+                                <input type="submit" value="Close" name="Close" id="submitBtn3" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close3()"> </input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ප්‍රශ්න අංක 4-->
+            <div class="col-md-2">
+                <span class="badge badge-pill badge-primary">&nbsp;</span>
+                <button type="button" id="Ques4" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default4"><div class="h1" style="color: white;">4</div></button>
+                <div class="modal fade" id="modal-default4" tabindex="-1" role="dialog" aria-labelledby="modal-default4" aria-hidden="true">
+                    <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h6 class="modal-title" id="modal-title-default4">ප්‍රශ්න අංක 4</h6>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>2018 වසරේදී ආර්ථික විද්‍යාව සඳහා නොබෙල් ත්‍යාගය දිනාගන්න ලද්දේ කෑ විසින්ද?</p>
+                                <div class="lead" id="Answer4" style="display:none;" >පෝල් රෝමර්</div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <input type="button" class="btn btn-primary" name="Answer4" value="Answer" onclick="showDiv4()" />
+                                <input type="submit" value="Close" name="Close" id="submitBtn4" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close4()"> </input>
                             </div>
                         </div>
                     </div>
@@ -162,80 +245,56 @@
 
           <!-- Row 2 -->
           <div class="row">
-
-              <!-- Question 5 -->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">5</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <div class="col-md-2">
+              </div>
+              <!-- ප්‍රශ්න අංක 5 -->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">Acc.</span>
+                  <button type="button" id="Ques5" class="btn btn-lg btn-block btn-danger mb-3" data-toggle="modal" data-target="#modal-default5"><div class="h1" style="color: white;">5</div></button>
+                  <div class="modal fade" id="modal-default5" tabindex="-1" role="dialog" aria-labelledby="modal-default5" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default5">ප්‍රශ්න අංක 5</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                  <p>මූල්‍ය ප්‍රකාශන වල අවසාන තොගය දැක්වීමේදී පිරිවැය හා ශුද්ධ උප ලබ්ධි අගය යන දෙකෙන් අඩු අගය පෙන්වීමට පාදක වන සංකල්පය කුමක්ද?</p>
+                                  <div class="lead" id="Answer5" style="display:none;" >ආරක්ෂණ සංකල්පය</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer5" value="Answer" onclick="showDiv5()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn5" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close5()"> </input>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
 
-              <!-- Question 6 -->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">6</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
-                              <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">×</span>
-                                  </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-
-              <!-- Question 7-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">7</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <!-- ප්‍රශ්න අංක 6 -->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">&nbsp;</span>
+                  <button type="button" id="Ques6" class="btn btn-lg btn-block btn-danger mb-3" data-toggle="modal" data-target="#modal-default6"><div class="h1" style="color: white;">6</div></button>
+                  <div class="modal fade" id="modal-default6" tabindex="-1" role="dialog" aria-labelledby="modal-default6" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default6">ප්‍රශ්න අංක 6</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                  <p>ආදායම් හා වියදම් ගිණුම්වල ඇතුලත් වන, නමුත් ලැබීම් හා ගෙවීම් ගිණුමේ ඇතුලත් නොවන ගනුදෙනුව නම් කරන්න.</p>
+                                  <div class="lead" id="Answer6" style="display:none;" >ක්ෂය වීම්</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer6" value="Answer" onclick="showDiv6()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn6" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close6()"> </input>
                               </div>
                           </div>
                       </div>
@@ -243,28 +302,55 @@
               </div>
 
 
-              <!-- Question 8-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">8</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
+              <!-- ප්‍රශ්න අංක 7-->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">&nbsp;</span>
+                  <button type="button" id="Ques7" class="btn btn-lg btn-block btn-danger mb-3" data-toggle="modal" data-target="#modal-default7"><div class="h1" style="color: white;">7</div></button>
+                  <div class="modal fade" id="modal-default7" tabindex="-1" role="dialog" aria-labelledby="modal-default7" aria-hidden="true">
+                      <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                          <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
+                                  <h6 class="modal-title" id="modal-title-default7">ප්‍රශ්න අංක 7</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
+                                  <p>ණයගැති සැසදුම් ප්‍රකාශනයකින් සිදු වන්නේකුමක්ද?</p>
+                                  <div class="lead" id="Answer7" style="display:none;" >ණයගැති පාලන ගිණුමේ ශේෂය සමග ණයගැති ශේෂ ලැයිස්තුවේ ඓක්‍යය සැසඳීම</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer7" value="Answer" onclick="showDiv7()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn7" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close7()"> </input>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+              <!-- ප්‍රශ්න අංක 8-->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">&nbsp;</span>
+                  <button type="button" id="Ques8" class="btn btn-lg btn-block btn-danger mb-3" data-toggle="modal" data-target="#modal-default8"><div class="h1" style="color: white;">8</div></button>
+                  <div class="modal fade" id="modal-default8" tabindex="-1" role="dialog" aria-labelledby="modal-default8" aria-hidden="true">
+                      <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h6 class="modal-title" id="modal-title-default8">ප්‍රශ්න අංක 8</h6>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">×</span>
+                                  </button>
+                              </div>
+                              <div class="modal-body">
+                                  <p>ශ්‍රී ලංකාවේ ගිණුම්කරණ ක්ෂේත්‍රයේ කටයුතු සඳහා මගපෙන්වීම හා ප්‍රමිති සකස් කිරීම සහ විධිවිධාන නියම කිරීම වැනි කාර්යයන් ඉටු කරන ආයතනය කුමක්ද?</p>
+                                  <div class="lead" id="Answer8" style="display:none;" >ශ්‍රී ලංකා වරලත් ගණකාධිකාරී ආයතනය</div>
+
+                              </div>
+                              <div class="modal-footer">
+                                  <input type="button" class="btn btn-primary" name="Answer8" value="Answer" onclick="showDiv8()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn8" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close8()"> </input>
                               </div>
                           </div>
                       </div>
@@ -275,80 +361,56 @@
 
           <!-- Row 3 -->
           <div class="row">
-
-              <!-- Question 9-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">9</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <div class="col-md-2">
+              </div>
+              <!-- ප්‍රශ්න අංක 9-->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-success">B.S.</span>
+                  <button type="button" id="Ques9" class="btn btn-lg btn-block btn-success mb-3" data-toggle="modal" data-target="#modal-default9"><div class="h1" style="color: white;">9</div></button>
+                  <div class="modal fade" id="modal-default9" tabindex="-1" role="dialog" aria-labelledby="modal-default9" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default9">ප්‍රශ්න අංක 9</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                  <p>තත්කාලීන දළ පියවීම් පද්ධතිය හා ලේඛන රහිත සුරැකුම්පත් තැන්පතු පද්ධතිය ගත් විට එය හඳුන්වන නාමය කුමක්ද?</p>
+                                  <div class="lead" id="Answer9" style="display:none;" >ලංකා සෙට්ල්(Lanka Settle)</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer9" value="Answer" onclick="showDiv9()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn9" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close9()"> </input>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
 
-              <!-- Question 10-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">10</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
-                              <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">×</span>
-                                  </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-
-              <!-- Question 11-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">11</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <!-- ප්‍රශ්න අංක 10-->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-success">&nbsp;</span>
+                  <button type="button" id="Ques10" class="btn btn-lg btn-block btn-success mb-3" data-toggle="modal" data-target="#modal-default10"><div class="h1" style="color: white;">10</div></button>
+                  <div class="modal fade" id="modal-default10" tabindex="-1" role="dialog" aria-labelledby="modal-default10" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default10">ප්‍රශ්න අංක 10</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                  <p>මිහිකත සමුළුවේදී දේශගුණික වෙනස්වීම් සම්බන්ධයෙන් ඇති කරගත් ගිවිසුම කුමක්ද?</p>
+                                  <div class="lead" id="Answer10" style="display:none;" >කියෝටෝ සම්මුතිය</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer10" value="Answer" onclick="showDiv10()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn10" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close10()"> </input>
                               </div>
                           </div>
                       </div>
@@ -356,87 +418,88 @@
               </div>
 
 
-              <!-- Question 12 -->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">12</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
+              <!-- ප්‍රශ්න අංක 11-->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-success">&nbsp;</span>
+                  <button type="button" id="Ques11" class="btn btn-lg btn-block btn-success mb-3" data-toggle="modal" data-target="#modal-default11"><div class="h1" style="color: white;">11</div></button>
+                  <div class="modal fade" id="modal-default11" tabindex="-1" role="dialog" aria-labelledby="modal-default11" aria-hidden="true">
+                      <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                          <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
+                                  <h6 class="modal-title" id="modal-title-default11">ප්‍රශ්න අංක11</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
+                                  <p>ඊ මේල් ලිපිනය හරහා ගිණුමක් විවෘත කර මුදල් තැන්පත් කර එම ගිණුම හරහා පහසුවෙන් ගෙවීම් කළ හැකි සේවය කුමක්ද?</p>
+                                  <div class="lead" id="Answer11" style="display:none;" >පේ-පැල් (Paypal)</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer11" value="Answer" onclick="showDiv11()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn11" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close11()"> </input>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
 
+
+              <!-- ප්‍රශ්න අංක 12 -->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-success">&nbsp;</span>
+                  <button type="button" id="Ques12" class="btn btn-lg btn-block btn-success mb-3" data-toggle="modal" data-target="#modal-default12"><div class="h1" style="color: white;">12</div></button>
+                  <div class="modal fade" id="modal-default12" tabindex="-1" role="dialog" aria-labelledby="modal-default12" aria-hidden="true">
+                      <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h6 class="modal-title" id="modal-title-default12">ප්‍රශ්න අංක 12</h6>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">×</span>
+                                  </button>
+                              </div>
+                              <div class="modal-body">
+                                  <p>යහපත් පරිසර කළමනාකරණ පද්ධතියක් යටතේ ව්‍යාපාර කටයුතු කරගෙන යන බවට ලබාදෙන ප්‍රමිතිය කුමක්ද?</p>
+                                  <div class="lead" id="Answer12" style="display:none;" >ISO 14001</div>
+
+                              </div>
+                              <div class="modal-footer">
+                                  <input type="button" class="btn btn-primary" name="Answer12" value="Answer" onclick="showDiv12()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn12" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close12()"> </input>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
 
 
-          <!-- Row 4 -->
+          <!-- Row 3 -->
           <div class="row">
-
-              <!-- Question 13-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">13</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <div class="col-md-2">
+              </div>
+              <!-- ප්‍රශ්න අංක 13 -->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">Gen.</span>
+                  <button type="button" id="Ques13" class="btn btn-lg btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-default13"><div class="h1" style="color: white;">13</div></button>
+                  <div class="modal fade" id="modal-default13" tabindex="-1" role="dialog" aria-labelledby="modal-default13" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default13">ප්‍රශ්න අංක 13</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
+                                  <p>ආසියානු සංවර්ධන බැංකුවේ මූලස්ථානය පිහිටා ඇත්තේ කොහේද?</p>
+                                  <div class="lead" id="Answer13" style="display:none;" >පිලිපීනයේ මැනිලා නුවර</div>
 
-              <!-- Question 14-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">14</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
-                              <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">×</span>
-                                  </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer13" value="Answer" onclick="showDiv13()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn13" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close13()"> </input>
                               </div>
                           </div>
                       </div>
@@ -444,25 +507,27 @@
               </div>
 
 
-              <!-- Question 15-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">15</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <!-- ප්‍රශ්න අංක 14-->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">&nbsp;</span>
+                  <button type="button" id="Ques14" class="btn btn-lg btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-default14"><div class="h1" style="color: white;">14</div></button>
+                  <div class="modal fade" id="modal-default14" tabindex="-1" role="dialog" aria-labelledby="modal-default14" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default14">ප්‍රශ්න අංක 14</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                  <p>මැලේසියාවේ භාවිතා වන මුදල් ඒකකය කුමක්ද?</p>
+                                  <div class="lead" id="Answer14" style="display:none;" >රින්ගිට්</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer14" value="Answer" onclick="showDiv14()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn14" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close14()"> </input>
                               </div>
                           </div>
                       </div>
@@ -470,142 +535,57 @@
               </div>
 
 
-              <!-- Question 16-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">16</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
-                              <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">×</span>
-                                  </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-
-          <!-- Row 5 -->
-          <div class="row">
 
 
 
-              <!-- Question 17-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">17</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <!-- ප්‍රශ්න අංක 15 -->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">&nbsp;</span>
+                  <button type="button" id="Ques15" class="btn btn-lg btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-default15"><div class="h1" style="color: white;">15</div></button>
+                  <div class="modal fade" id="modal-default15" tabindex="-1" role="dialog" aria-labelledby="modal-default15" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default15">ප්‍රශ්න අංක 15</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                  <p>ශ්‍රී ලංකාවේ ජනගහනය අඩුම දිස්ත්‍රික්කය කුමක්ද?</p>
+                                  <div class="lead" id="Answer15" style="display:none;" >මුලතිවු දිස්ත්‍රික්කය</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer15" value="Answer" onclick="showDiv15()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn15" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close15()"> </input>
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
 
-              <!-- Question 18-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">18</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
-                              <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">×</span>
-                                  </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-
-              <!-- Question 19-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-lg btn-block btn-primary mb-3" data-toggle="modal" data-target="#modal-default">19</button>
-                  <div class="modal fade" id="modal-default" tabindex="-1" role="dialog" aria-labelledby="modal-default" aria-hidden="true">
+              <!-- ප්‍රශ්න අංක 16 -->
+              <div class="col-md-2">
+                  <span class="badge badge-pill badge-warning">&nbsp;</span>
+                  <button type="button" id="Ques16" class="btn btn-lg btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-default16"><div class="h1" style="color: white;">16</div></button>
+                  <div class="modal fade" id="modal-default16" tabindex="-1" role="dialog" aria-labelledby="modal-default16" aria-hidden="true">
                       <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                           <div class="modal-content">
                               <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-default">Type your modal title</h6>
+                                  <h6 class="modal-title" id="modal-title-default16">ප්‍රශ්න අංක 16</h6>
                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                       <span aria-hidden="true">×</span>
                                   </button>
                               </div>
                               <div class="modal-body">
-                                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                                  <p>ශ්‍රී ලංකාව හා ඉන්දියාව අතර මෑතකදී අත්සන් කරන ලද ETCA ගිවිසුම යනු කුමක්ද?</p>
+                                  <div class="lead" id="Answer16" style="display:none;" >ආර්ථික හා තාක්ෂණික සහයෝගිතා ගිවිසුම (Economic and Technology Co-operation Agreement)</div>
+
                               </div>
                               <div class="modal-footer">
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                  <button type="button" class="btn btn-link  ml-auto" data-dismiss="modal">Close</button>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-
-              <!-- Question 20-->
-              <div class="col-md-3">
-                  <button type="button" class="btn btn-block btn-warning mb-3" data-toggle="modal" data-target="#modal-notification">20</button>
-                  <div class="modal fade" id="modal-notification" tabindex="-1" role="dialog" aria-labelledby="modal-notification" aria-hidden="true">
-                      <div class="modal-dialog modal-danger modal-dialog-centered modal-" role="document">
-                          <div class="modal-content bg-gradient-danger">
-                              <div class="modal-header">
-                                  <h6 class="modal-title" id="modal-title-notification">Your attention is required</h6>
-                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">×</span>
-                                  </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="py-3 text-center">
-                                      <i class="ni ni-bell-55 ni-3x"></i>
-                                      <h4 class="heading mt-4">You should read this!</h4>
-                                      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                  </div>
-                              </div>
-                              <div class="modal-footer">
-                                  <button type="button" class="btn btn-white">Ok, Got it</button>
-                                  <button type="button" class="btn btn-link text-white ml-auto" data-dismiss="modal">Close</button>
+                                  <input type="button" class="btn btn-primary" name="Answer16" value="Answer" onclick="showDiv16()" />
+                                  <input type="submit" value="Close" name="Close" id="submitBtn16" class="btn btn-link  ml-auto" data-dismiss="modal" onclick="close16()"> </input>
                               </div>
                           </div>
                       </div>
@@ -613,6 +593,8 @@
               </div>
 
           </div>
+
+
 
 
       </div>
@@ -631,6 +613,75 @@
   <script src="./assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
   <!-- Argon JS -->
   <script src="./assets/js/argon.js?v=1.0.1"></script>
+
+ <script>
+     function showDiv1() {
+         document.getElementById('Answer1').style.display = "block";
+     };
+
+     function showDiv2() {
+         document.getElementById('Answer2').style.display = "block";
+     };
+
+     function showDiv3() {
+         document.getElementById('Answer3').style.display = "block";
+     };
+
+     function showDiv4() {
+         document.getElementById('Answer4').style.display = "block";
+     };
+
+     function showDiv5() {
+         document.getElementById('Answer5').style.display = "block";
+     };
+
+     function showDiv6() {
+         document.getElementById('Answer6').style.display = "block";
+     };
+
+     function showDiv7() {
+         document.getElementById('Answer7').style.display = "block";
+     };
+
+     function showDiv8() {
+         document.getElementById('Answer8').style.display = "block";
+     };
+
+     function showDiv9() {
+         document.getElementById('Answer9').style.display = "block";
+     };
+
+     function showDiv10() {
+         document.getElementById('Answer10').style.display = "block";
+     };
+
+     function showDiv11() {
+         document.getElementById('Answer11').style.display = "block";
+     };
+
+     function showDiv12() {
+         document.getElementById('Answer12').style.display = "block";
+     };
+
+     function showDiv13() {
+         document.getElementById('Answer13').style.display = "block";
+     };
+
+     function showDiv14() {
+         document.getElementById('Answer14').style.display = "block";
+     };
+
+     function showDiv15() {
+         document.getElementById('Answer15').style.display = "block";
+     };
+
+     function showDiv16() {
+         document.getElementById('Answer16').style.display = "block";
+     };
+
+
+ </script>
+
 </body>
 
 </html>
